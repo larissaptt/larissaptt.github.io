@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(255, 221, 249);
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    z-index: 20;
+    position: sticky;
+    top: 0;
+    width: 97,5%;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    box-shadow: 3px 3px 7px rgb(0, 0, 0);
+    font-size: 12px;
+    background-color: #895297;
+    border-radius: 20px;
+}
+.titulo{
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 3px 3px 7px #895297;
+}
+.subtitulo{
+    font-size: 18px;
+    text-align: center;
+}
+.links, .historia{
+    font-size: 15px;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.header_logo > img{
+    width: 140px;
+}
+details > summary {
+    padding: 4px;
+    width: 50px;
+    border: none;
+    box-shadow: 1px 1px 2px #000000;
+    cursor: pointer;
+  }
+details{
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+}
+.pesquisa{
+    color: #000000;
+}
+details[open]{
+    max-height: 80px;
+    width: 50px;
+    background-color: #6a3f75;
+}
+details:not([open]){
+    max-height: 30px;
+}
+details > p {
+    padding: 4px;
+    margin: 0;
+    border: 1px 0.5px 2px #000000;
+}
+.img-fachada-casa{
+    width: 99%;
+    border-radius: 20px;
+    box-shadow: 4px 4px 7px #000000;
+}
+.lema{
+    font-size: 20px;
+}

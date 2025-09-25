@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 221, 249);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(228, 228, 228);
+    padding: 5%;
+}
+.cards_completos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content:space-around;
+
+}
+.cada{
+    width: 135px;
+    max-height: 260px;
+    background-color: #895297;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px;
+    margin-top: 15px;
+}
+.cada img{
+    aspect-ratio: 1/1;
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+}
+.info_card{
+    padding: 14px;
+    font-size: 14px;
+    line-height: 1.2;
+}
+.cada > h1{
+    font-size: 20px;
+}
+a{
+    color: rgb(228, 228, 228);
+}
+button{
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    align-items: center;
+    padding: 5px;
+    border: 1px;
+    border-style:groove;
+    border-color: #410550;
+    font-size: 16px;
+}
+.topo_baixo{
+    color: black;
+    text-align: center;
+}
+.botao_editado{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+}
+.locked{
+    width: 90%;
+    background-color: #895297;
+}
+.cada > button{
+    width: 90%;
+}
+
+
+
+
+
+

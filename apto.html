@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_casa_e_apt.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="topo_baixo">
+        <h1>Apartamentos!</h1>
+        <h3>Dinheiro: R$ <span id="money">0</span></h3><br>
+        <button class="botao_editado" id="addMoney">Ganhar +1R$</button>
+    </div>
+    <div class="cards_completos">
+        <div class="cada">
+            <img src="apartamentos/imagens_apts/apt_bonito.jpeg">
+            <h1>R$50</h1>
+            <h6>ALUGUEL</h6>
+            <a href="apartamentos/info_apt_bonito.html" class="info_card">Detalhes...</a>
+            <button id="buy_bonito" class="locked" disabled>Alugar!</button>
+        </div>
+        <div class="cada">
+            <img src="apartamentos/imagens_apts/casa_sombria.png">
+            <h1>R$10</h1>
+            <h6>ALUGUEL</h6>
+            <a href="apartamentos/info_casa_sombria.html" class="info_card">Detalhes...</a>
+            <button id="buy_sombria" class="locked" disabled>Alugar!</button>
+        </div>
+        <div class="cada">
+            <img src="apartamentos/imagens_apts/sem_privacidade.webp">
+            <h1>R$20</h1>
+            <h6>VENDA</h6>
+            <a href="apartamentos/info_sem_privacidade.html" class="info_card">Detalhes...</a>
+            <button id="buy_privacidade" class="locked" disabled>Comprar!</button>
+        </div>
+        <div class="cada">
+            <img src="apartamentos/imagens_apts/torres_gêmeas.jpeg">
+            <h1>R$300</h1>
+            <h6>VENDA</h6>
+            <a href="apartamentos/info_torres_gemeas.html" class="info_card">Detalhes...</a>
+            <button id="buy_torres" class="locked" disabled>Comprar!</button>
+        </div>
+    </div><br><br>
+    <div class="topo_baixo">
+        <a href="../index.html"><button class="botao_editado">Voltar</button></a>
+    </div>
+    <script src="script_apt.js"></script>
+</body>
+</html>
