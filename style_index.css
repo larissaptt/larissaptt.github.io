@@ -15,6 +15,7 @@ header{
     font-size: 12px;
     background-color: #895297;
     border-radius: 20px;
+    color: #ffff;
 }
 .titulo{
     font-size: 25px;
@@ -47,7 +48,7 @@ details{
     transition: max-height 1s ease-in-out;
 }
 .pesquisa{
-    color: #000000;
+    color: #ffffff;
 }
 details[open]{
     max-height: 80px;
